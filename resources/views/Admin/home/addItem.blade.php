@@ -1,11 +1,11 @@
 @extends('layouts.BackEnd.master')
 
 @section('title')
-	Admin-Items
+	Admin-Products
 @endsection
 
 @section('heading')
-	Item Entry
+	Product Entry
 @endsection
 
 @section('mainContent')
@@ -19,7 +19,7 @@
 				<form action="{{url('newItem')}}" method="post">
 					{{ csrf_field() }}
 				<div class="form-group">
-						<label for="inputName">Item Name:</label>
+						<label for="inputName">Product Name:</label>
 						<input type="text" class="form-control" name="name" required>
 				</div>
 				<div class="form-group">

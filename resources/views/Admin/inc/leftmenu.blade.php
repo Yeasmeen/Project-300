@@ -18,19 +18,36 @@
                             <a href="home"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                         </li>
                         <li>
-                            <a href="#"><i class="glyphicon glyphicon-gift"></i> Items <span class="fa arrow"></span></a>
+                            <a href="#"><i class="glyphicon glyphicon-gift"></i> Products <span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="newItem">Item Entry</a>
+                                    <a href="newItem">Product Entry</a>
                                 </li>
                                 <li>
-                                    <a href="showItem">Show Items</a>
+                                    <a href="showItem">Show Products</a>
                                 </li>                               
                                 <li>
-                                    <a href="trashedItem">Trashed Items</a>
+                                    <a href="trashedItem">Trashed Products</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a href="#"><i class="glyphicon glyphicon-th-list"></i> Order <span class="fa arrow"></span> </a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="order">Pending Order</a>
+                                </li>
+                                <li>
+                                    <a href="confirmed">Order Confirmed</a>
+                                </li> 
+                                <li>
+                                    <a href="addOrder">Add Order</a>
+                                </li>                               
+                                <li>
+                                    <a href="completed">Delete Order</a>
+                                </li>
+                            </ul>
                         </li>
                         <li>
                             <a href="#"><i class="glyphicon glyphicon-envelope"></i> Messages <span class="fa arrow"></span></a>
@@ -55,23 +72,6 @@
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->
-                        </li>
-                        <li>
-                            <a href="#"><i class="glyphicon glyphicon-th-list"></i> Order <span class="fa arrow"></span> </a>
-                            <ul class="nav nav-second-level">
-                                <li>
-                                    <a href="order">Pending Order</a>
-                                </li>
-                                <li>
-                                    <a href="confirmed">Order Confirmed</a>
-                                </li> 
-                                <li>
-                                    <a href="addOrder">Add Order</a>
-                                </li>                               
-                                <li>
-                                    <a href="completed">Delete Order</a>
-                                </li>
-                            </ul>
                         </li>
                     </ul>
                 </div>

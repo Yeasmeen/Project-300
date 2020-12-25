@@ -5,7 +5,7 @@
 @endsection
 
 @section('heading')
-	Trashed Items
+	Trashed Products
 @endsection
 
 @section('mainContent')
@@ -55,7 +55,7 @@
                                           @endforeach
                                         @else
                                           <tr>
-                                            <th colspan="5" class="text-center">No trashed items</th>
+                                            <th colspan="5" class="text-center">No trashed products</th>
                                           </tr>
                                         @endif
                                     </tbody>

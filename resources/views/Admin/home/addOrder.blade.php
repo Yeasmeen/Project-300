@@ -1,11 +1,11 @@
 @extends('layouts.BackEnd.master')
 
 @section('title')
-	Admin-NewTable
+	Admin-New Order
 @endsection
 
 @section('heading')
-	Add Table
+	Add Order
 @endsection
 
 @section('mainContent')

@@ -1,11 +1,11 @@
 @extends('layouts.BackEnd.master')
 
 @section('title')
-	Admin-Items Edit
+	Admin-Product Edit
 @endsection
 
 @section('heading')
-	Edit Item
+	Edit Product
 @endsection
 
 @section('mainContent')
@@ -20,7 +20,7 @@
 				<form action="{{ route('item.update',['id '=> $item->id]) }}" method="post" name="editForm">
 					{{ csrf_field() }}
 				<div class="form-group">
-						<label for="inputName">Item Name:</label>
+						<label for="inputName">Product Name:</label>
 						<input type="text" class="form-control" name="name" value="{{ $item->name }}" required>
 				</div>
 				<div class="form-group">

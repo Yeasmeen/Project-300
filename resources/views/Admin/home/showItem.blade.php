@@ -1,11 +1,11 @@
 @extends('layouts.BackEnd.master')
 
 @section('title')
-	Admin-Items
+	Admin-Products
 @endsection
 
 @section('heading')
-	Items
+	Products
 @endsection
 
 @section('mainContent')
@@ -47,7 +47,7 @@
                                         @endforeach
                                       @else
                                           <tr>
-                                            <th colspan="5" class="text-center">No published items</th>
+                                            <th colspan="5" class="text-center">No published products</th>
                                           </tr>
                                       @endif
                                     </tbody>
